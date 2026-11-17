@@ -26,8 +26,6 @@ const values = [
   },
 ];
 
-// the people who work here
-
 const About = () => {
   return (
     <div className="page">
