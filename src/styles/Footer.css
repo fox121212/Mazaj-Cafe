@@ -1,0 +1,18 @@
+.footer {
+  background-color: #3b2a20;
+  color: #e8dccb;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 4px solid #c8a96e;
+}
+
+.footer p {
+  margin: 6px 0;
+}
+
+.footer-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #c8a96e;
+  font-size: 22px;
+}

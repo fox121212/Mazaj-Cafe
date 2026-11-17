@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #3b2a20;
+  padding: 18px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #c8a96e;
+}
+
+.nav-links a {
+  color: #e8dccb;
+  text-decoration: none;
+  margin-left: 8px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: #c8a96e;
+  color: #3b2a20;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 6px;
+  }
+}

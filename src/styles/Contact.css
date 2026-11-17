@@ -1,0 +1,38 @@
+.contact-info p {
+  font-size: 17px;
+  margin: 8px 0;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #d8cbb8;
+  border-radius: 6px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: #fcfaf6;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #c8a96e;
+  background-color: white;
+}
+
+form textarea {
+  height: 120px;
+}
+
+.thank-you {
+  border-left: 6px solid #c8a96e;
+}
